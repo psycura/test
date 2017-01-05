@@ -1,5 +1,28 @@
 {
   "name": "test-project",
   "version": "0.0.1",
-  "description": "some test project"
+  "description": "some test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psycura/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psycura/test/issues"
+  },
+  "homepage": "https://github.com/psycura/test#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "webpack": "^1.14.0"
+  }
 }
